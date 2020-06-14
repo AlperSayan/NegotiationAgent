@@ -1,0 +1,6 @@
+
+**Automated Negotiation Agent**
+
+**Mustafa Alper Sayan**, **Ertugrul Ozvardar**
+
+ This project is about developing an automated negotiation agent using the GeniusWeb environment. In this assignment, negotiations are also called as negotiation sessions. Those negotiations are going to be run on the SHAOP protocol that is an extension of SAOP protocol. In this protocol, the first party initializes the negotiation with a bid which is observed from the other agents. Then, three actions can be performed in a turn taking clockwise fashion such as accepting a bid, making a counter bid, and ending the negotiation without reaching an agreement. Additionally, agents can implement information requests to obtain more information about the utility space and develop their own partial profile. This can be done by using ElicitComparison and Compare actions provided by the SHAOP protocol. GeniusWeb interface consists of profiles and parties to compare our agent against. It handles the communication between agents and reports the outcome as a graph. GeniusWeb also allows to monitor which bids are exchanged between agents. The most significant part of this assignment is that each agent has incomplete information about their opponent.
